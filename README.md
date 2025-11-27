@@ -49,4 +49,3 @@ Live Project: **https://crowdfunding-3b9b5.web.app/About**
 
 ---
 
-# 📂 Folder Structure  
