@@ -1,85 +1,58 @@
-# CrowdFunding Using BlockChain
-A decentralized crowdfunding platform leveraging blockchain technology to empower users to create and support campaigns for various causes. The platform should facilitate seamless interaction between campaign creators and donors while ensuring transparency, security, and accessibility.
+<p align="center">
+  <img src="banner.png" alt="Crowdfunding Based on Blockchain Technology" width="100%">
+</p>
 
-## 
+# Crowdfunding Based on Blockchain Technology
 
-![metamask](https://1000logos.net/wp-content/uploads/2022/05/MetaMask-Symbol-1536x864.png)
+A decentralized crowdfunding platform built on the Ethereum blockchain.  
+Users can create campaigns, contribute via smart contracts, and track fund usage transparently.  
 
+🎯 Live Demo: https://crowdfunding-3b9b5.web.app/  
 
-## Features
-- Connect wallet
-- Create campaign
-- Create donation
-- List campaigns
-- Filter campaigns
-- List donations
-- List User campaigns
-- Disconnect wallet
+---
 
-## Tech Stack
+## 📋 Table of Contents  
+- [About](#about)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Folder Structure](#folder-structure)  
+- [Installation & Running Locally](#installation--running-locally)  
+- [Usage](#usage)  
+- [Screenshots](#screenshots)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-**Frontend:** React from Vite.js, TailwindCSS
+---
 
-**Backend:** Deployed Contract from Thirdweb.js
+## 🔎 About  
 
-**Wallet:** Metamask
+This project is a blockchain-based crowdfunding DApp (decentralized application). Its goal is to provide a transparent and secure platform for fundraising — leveraging smart contracts to avoid fraud and ensure trust.  
 
-**Etherium Type:** Sepolia Faucet
+This implementation was created during my final year of engineering and now showcases my interest and skills in blockchain development.
 
-## Run Locally
+---
 
-Clone the project
+## ✅ Features  
 
-```bash
-  git clone https://github.com/Karthik-02/crowdfundchain.git
-```
+- Create crowdfunding campaigns (campaign name, description, funding goal, deadline, etc.)  
+- Contribute to campaigns using Ethereum (MetaMask / Web3)  
+- View contributions and total funds for each campaign  
+- Request and approve fund withdrawal (governance through contributors / smart-contract logic)  
+- Fully decentralized — transactions happen on blockchain, no central server for funds  
+- Transparent fund usage and campaign status  
 
-Go to the project directory
+---
 
-```bash
-  cd crowdfundchain
-```
-Go to the client directory
+## 🛠 Tech Stack  
 
-```bash
-  cd Frontend
-```
+| Layer | Technology |
+|-------|------------|
+| Blockchain / Smart Contract | Solidity, Ethereum, Hardhat |
+| Frontend | React (with Vite or Create-React-App), JavaScript, Tailwind CSS |
+| Web3 Integration | Web3.js or Ethers.js, MetaMask |
+| Deployment / Hosting | Web / Firebase (or hosting as per your deployment) |
 
-Install dependencies
+---
 
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run dev
-```
-## Run locally (For Backend) 
-view the README.md file inside backend directory.
-
-## Screenshots
-![cf1](https://github.com/Karthik-02/crowdfundchain/assets/81423983/b1cf6255-7c9e-4929-b481-329ba2752629)
-![cf2](https://github.com/Karthik-02/crowdfundchain/assets/81423983/cef14e30-33a1-4d3d-ae7a-aae7266eafec)
-![cf3](https://github.com/Karthik-02/crowdfundchain/assets/81423983/c1545a46-c5bc-4ee9-b23b-eed452ca7178)
-![cf4](https://github.com/Karthik-02/crowdfundchain/assets/81423983/a94e190b-105d-4be6-afdf-440be6f50b53)
-![cf5](https://github.com/Karthik-02/crowdfundchain/assets/81423983/91c20539-0109-498c-b778-b72ebd7cc57c)
-
-## Authors
-- [@KarthikS](https://www.github.com/Karthik-02)
-
-## Acknowledgements
-
- - [https://youtu.be/qDqJZl32oN4](https://youtu.be/qDqJZl32oN4)
- - [https://portal.thirdweb.com/contracts/deploy/overview](https://portal.thirdweb.com/contracts/deploy/overview)
- - [Getting Started | Vite (vitejs.dev)](https://vitejs.dev/guide/)
- - [Getting started with thirdweb React SDK](https://portal.thirdweb.com/react/v4/getting-started)
-
-
-  
-## Badges
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-
+## 📁 Folder Structure  
 
